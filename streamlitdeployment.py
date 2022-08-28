@@ -10,12 +10,12 @@ Original file is located at
 import tensorflow as tf
 from tensorflow import keras
 import streamlit as st
-model_gru=keras.models.load_model("C:\\Bootcamp\Data Bangalore\\model jadi\\model_gru")
+model_gru=keras.models.load_model("model fix/model_gru")
 
 model_gru.summary()
 
 import pickle
-with open("C:\\Users\\andik\\Downloads\\tokenizer.pickle", 'rb') as handle:
+with open("tokenizer.pickle", 'rb') as handle:
     b = pickle.load(handle)
 
 
