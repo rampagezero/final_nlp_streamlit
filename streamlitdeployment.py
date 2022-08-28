@@ -22,7 +22,7 @@ with open("tokenizer.pickle", 'rb') as handle:
 
 
 st.title('Lazada TextReview-Rating Predictor')
-st.subtitle('By- Andika Kristianto')
+st.header('By- Andika Kristianto')
 text=st.text_input('Masukan Review Disini')
 def predict(text):
     text=str(text)
